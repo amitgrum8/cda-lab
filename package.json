@@ -1,0 +1,38 @@
+{
+  "name": "cda-lab-exam",
+  "version": "1.0.0",
+  "description": "Hi there!  \r In this exam you will extend and add new features to a simplified ticketing system.\r The task's main purpose is to test your ability to learn new topics and deliver high quality digital products. It combines building UI components and a touch of server development as well.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bootstrap": "lerna bootstrap",
+    "postinstall": "npm run bootstrap",
+    "start": "lerna run start --parallel"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lerna": "^5.1.8",
+    "nx": "14.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RavidRo/CDALab-Exam.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RavidRo/CDALab-Exam/issues"
+  },
+  "homepage": "https://github.com/RavidRo/CDALab-Exam#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "fs": "^0.0.1-security",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "^5.0.1",
+    "sass": "^1.54.0",
+    "write-json-file": "^5.0.0"
+  }
+}
